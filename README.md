@@ -1,12 +1,11 @@
-## CSS Starter Template
+## Bootstrap Starter Template
 
 ---
 
-**A special CSS starter kit for Front End Developers.**
+**A special Bootstrap starter kit for Front End Developers.**
 
 - CSS3
 - HTML5
-- Normalize.css
-- Reset.css
+- Bootstrap
 
 > Created by Jahongir Murodboev
