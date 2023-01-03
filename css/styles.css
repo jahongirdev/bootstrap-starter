@@ -1,7 +1,7 @@
 :root {
-  --white: #ffffff;
-  --black: #000000;
-  --font-stack: "Arial", sans-serif;
+  --white: #ffffff !important;
+  --black: #000000 !important;
+  --font-stack: "Arial", sans-serif !important;
 }
 *,
 *::before,
@@ -19,28 +19,6 @@ body {
   flex-direction: column;
   height: 100%;
   font-family: var(--font-stack);
-  background-color: #fff;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.container {
-  max-width: 1200px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media only screen and (min-width: 1200px) {
